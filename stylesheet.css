@@ -7,13 +7,14 @@ body {
     background-color: navy;
 }
 
-main {
+.canvas-div {
     border: red 20px solid;
-    max-width: 500px;
+    border-radius: 2%;
+    max-width: 800px;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 canvas {
@@ -21,4 +22,14 @@ canvas {
     height: 500px;
     width: 100%;
     border: black 1px solid;
+}
+
+button {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    background-color: pink;
+    border-radius: 10%;
+    border: red 2px solid;
 }
