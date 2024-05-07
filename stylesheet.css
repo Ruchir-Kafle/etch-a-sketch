@@ -1,0 +1,24 @@
+body {
+    min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: navy;
+}
+
+main {
+    border: red 20px solid;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    border: black 1px solid;
+}
