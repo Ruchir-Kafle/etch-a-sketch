@@ -7,7 +7,7 @@ body {
     background-color: navy;
 }
 
-.canvas-div {
+div.canvas-div {
     border: red 20px solid;
     border-radius: 2%;
     max-width: 800px;
