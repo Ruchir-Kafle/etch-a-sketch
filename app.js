@@ -34,13 +34,25 @@ function changePosition(e) {
         case ("ArrowUp"):
             y -= LINE_INCREASE;
             break;
+        case ("w"):
+            y -= LINE_INCREASE;
+            break;
         case ("ArrowDown"):
+            y += LINE_INCREASE;
+            break;
+        case ("s"):
             y += LINE_INCREASE;
             break;
         case ("ArrowRight"):
             x += LINE_INCREASE;
             break;
+        case ("d"):
+            x += LINE_INCREASE;
+            break;
         case ("ArrowLeft"):
+            x -= LINE_INCREASE;
+            break;
+        case ("a"):
             x -= LINE_INCREASE;
             break;
     };
